@@ -1,0 +1,164 @@
+body {margin:0;}
+
+/* 设置标题格式 */
+h2 {
+  letter-spacing: 4px;
+  color:dodgerblue;
+}
+
+/* 设置段落格式 */
+p {
+  line-height: 3;
+  color:dimgray;
+}
+
+/* 设置logo格式 */
+div.homepage{
+  margin: 25px 50px 50px;
+  max-width: 500px;
+  margin-top: 60px;
+  }
+
+  /* 设置导航栏格式 */
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  opacity: 0.8;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color:dodgerblue;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+/* 设置图片及文字格式 */
+div.feature1{
+  float: left;
+  margin-left: 10px;
+}
+
+div.feature11{
+  float: right;
+  margin-top: 100px;
+  margin-right: 30px;
+}
+
+div.feature2{
+  float: right;
+  margin-right: 10px;
+}
+
+div.feature22{
+  float: left;
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+div.feature3{
+  float: left;
+  margin-left: 10px;
+}
+
+div.feature33{
+  float: right;
+  margin-top: 100px;
+  margin-right: 30px;
+}
+
+div.feature4{
+  float: right;
+  margin-right: 10px;
+}
+
+div.feature44{
+  float: left;
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+div.feature5{
+  float: left;
+  margin-left: 10px;
+}
+
+div.feature55{
+  float: right;
+  margin-top: 100px;
+  margin-right: 30px;
+}
+
+div.feature6{
+  float: right;
+  margin-right: 10px;
+}
+
+div.feature66{
+  float: left;
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+div.feature7{
+  float: left;
+  margin-left: 10px;
+}
+
+div.feature77{
+  float: right;
+  margin-top: 100px;
+  margin-right: 30px;
+}
+
+div.feature8{
+  float: right;
+  margin-right: 10px;
+}
+
+div.feature88{
+  float: left;
+  margin-top: 100px;
+  margin-left: 30px;
+}
+
+div.feature9{
+  float: left;
+  margin-left: 10px;
+}
+
+div.feature99{
+  float: right;
+  margin-top: 100px;
+  margin-right: 30px;
+}
+
+div.feature10{
+  float: right;
+  margin-right: 10px;
+}
+
+div.feature1010{
+  float: left;
+  margin-top: 100px;
+  margin-left: 30px;
+}

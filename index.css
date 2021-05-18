@@ -1,0 +1,51 @@
+body {margin:0;}
+
+/* 设置标题格式 */
+h1 {
+  color:black;
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+/* 设置段落格式 */
+p {
+  color:white;
+  text-align: center;
+}
+
+/* 设置logo格式 */
+div.homepage{
+margin: 25px 50px 50px;
+max-width: 500px;
+}
+
+/* 设置导航栏格式 */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color:#fff;
+}
+
+.active {
+  background-color: #4CAF50;
+}

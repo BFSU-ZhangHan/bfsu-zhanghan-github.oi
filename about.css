@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/* 设置标题格式 */
+h2 {
+    letter-spacing: 4px;
+  }
+
+/* 设置图片格式 */
+img{
+    display:block;
+}
+
+body,html{
+height:100%;
+color: #333;
+}
+
+.pimg1,.pimg2,.pimg3,.pimg4{
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+background-size: cover;
+background-attachment: fixed;
+}
+
+.pimg1{
+    min-height: 100%;
+    background-image: url('./images/1.jpg');
+}
+
+.pimg2{
+    min-height: 100%;
+    background-image: url('./images/2.jpg');
+}
+
+.pimg3{
+    min-height: 100%;
+    background-image: url('./images/3.jpg');
+}
+
+.pimg4{
+    min-height: 100%;
+    background-image: url('./images/4.jpg');
+}
+
+.section{
+    padding: 50px 80px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.section p{
+    margin-top: 20px;
+}
+
+/* 设置图片上字体格式 */
+.box{
+position: absolute;
+color:#fff;
+padding: 20px;
+letter-spacing: 8px;
+transition: all .5s;
+font-size: 80px;
+margin:0 auto; 
+width:200px; 
+height:200px; 
+}
+.box:hover{
+    opacity: 1;
+}
+
+/* 媒体查询 */
+@media(max-width:600px){
+.pimg1,.pimg2,.pimg3,.pimg4{
+    background-attachment: scroll;
+}
+}
